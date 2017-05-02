@@ -1,0 +1,48 @@
+html, body, #map {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #ffc32b;
+}
+
+#title {
+    position: absolute;
+    z-index: 999;
+    top:20px;
+    left:10%;
+    background-color:gray;
+    font-family:cambria;
+    color: darkred;
+    text-align:center;
+    font-size:20px;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+#description {
+    position: absolute;
+    z-index: 999;
+    top:60px;
+    left:10%;
+    background-color:gray;
+    font-family:cambria;
+    color: darkred;
+    text-align:center;
+    font-size:15px;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+#creator {
+    position: absolute;
+    z-index: 999;
+    bottom:0px;
+    left:1%;
+    background-color:gray;
+    font-family:cambria;
+    color: darkred;
+    text-align:center;
+    font-size:5px;
+    padding: 5px;
+    border-radius: 6px;
+}
